@@ -259,6 +259,11 @@ nav ul {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
+  transition:transform 0.5s ease;
+}
+
+.card:hover{
+  
 }
 
 .card-icon {
@@ -334,7 +339,18 @@ nav ul {
   border: none;
   margin-left: 20px;
   font-size: 1rem;
+  background-color: #ec5b53;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.5s;
 }
+
+.subscribe-btn:hover{
+  background-color: #dc2626;
+}
+
 /* Stay in Touch section ends */
 
 /*  ----------- Home page main sections styles end ----------------*/
@@ -397,6 +413,10 @@ nav ul {
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
+  transition: 0.5s;
+}
+.btn-view:hover {
+  background-color: #dc2626;
 }
 
 /* --------------- Project section styles end --------------- */
@@ -441,23 +461,16 @@ nav ul {
 /* contact form styles start */
 #contact-form {
   background-image: url("../images/background-image-shape.png");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   margin-top: 30px;
-
-}
-
-.container h2{
-  text-align: center;
-  padding: 50px 0;
-  font-size: 2rem;
 }
 
 .form-container {
- padding:40px 70px;
- background-color: #fff;
- border-radius: 8px;
+  padding: 40px 70px;
+  background-color: #fff;
+  border-radius: 8px;
 }
-.form-container h3{
+.form-subtitle {
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
@@ -465,27 +478,35 @@ nav ul {
 .form-group {
   margin-bottom: 20px;
 }
-.form-group input,textarea {
+.form-group input,
+.form-group textarea {
   width: 100%;
   padding: 10px 20px;
-  border-radius:8px;
+  border-radius: 8px;
   font-size: 17px;
-  border:0.5px solid rgb(211, 211, 211);  
+  border: 3px solid rgb(226, 226, 226);
+  transition: 0.5s;
+  outline: none;
 }
 
-.form-group input:hover,textarea:hover{
-  border: 1px solid #dc2626;
- 
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 2px solid #dc2626;
 }
-
 
 .form-btn {
   background-color: #ec5b53;
   color: #fff;
-  padding: 17px 60px;
+  padding: 15px 30px;
+  font-size: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.form-btn:hover{
+  background-color: #dc2626;
 }
 
 /* contact form styles ends */
