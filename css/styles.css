@@ -1,3 +1,6 @@
+/* Google fonts family */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -203,6 +206,7 @@ nav ul {
   background-color: #ec5b53;
   position: relative;
 }
+
 .about-image img {
   width: 300px;
   border-radius: 5px;
@@ -241,6 +245,7 @@ nav ul {
   text-align: center;
   margin: 20px 0;
 }
+
 .testmonial-subtitle {
   text-align: center;
 }
@@ -295,6 +300,7 @@ nav ul {
   margin-bottom: 20px;
   font-size: 1rem;
 }
+
 /* card styles end*/
 
 /* ---------------------------------- Testmonial or Clients Review Section ends ----------------------- */
@@ -304,6 +310,7 @@ nav ul {
 .stay-in-touch-section {
   background-color: #fff;
 }
+
 .stay-in-touch-container {
   margin-top: 50px;
   padding: 50px 0;
@@ -338,6 +345,7 @@ nav ul {
 #subscribe-email:focus {
   border: 1px solid #dc2626;
 }
+
 .subscribe-btn {
   border: none;
   margin-left: 20px;
@@ -405,9 +413,11 @@ nav ul {
   justify-content: space-around;
   padding: 20px;
 }
+
 .project-card-title {
   font-size: 1.2rem;
 }
+
 .btn-view {
   padding: 10px 20px;
   background-color: #ec5b53;
@@ -418,6 +428,7 @@ nav ul {
   text-decoration: none;
   transition: 0.5s;
 }
+
 .btn-view:hover {
   background-color: #dc2626;
 }
@@ -428,6 +439,7 @@ nav ul {
 #contact-section {
   padding-bottom: 60px;
 }
+
 .contact-details-container {
   display: flex;
   flex-direction: row;
@@ -454,6 +466,7 @@ nav ul {
   margin: 20px;
   color: #dc2626;
 }
+
 .contact-detail-box a {
   text-decoration: none;
   font-size: 18px;
@@ -473,6 +486,7 @@ nav ul {
   background-color: #fff;
   border-radius: 8px;
 }
+
 .form-subtitle {
   margin-bottom: 20px;
   font-size: 1.5rem;
@@ -481,6 +495,7 @@ nav ul {
 .form-group {
   margin-bottom: 20px;
 }
+
 .form-group input,
 .form-group textarea {
   width: 100%;
